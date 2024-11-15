@@ -46,6 +46,11 @@ ul.nav {
   gap: 16px;
 }
 
+.hero, 
+.info,
+.quote,
+.fe
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -54,11 +59,11 @@ button {
   padding: 12px;
 }
 
-.featured-quote {
+.quote {
   background: #e5e7eb;
 }
 
-.featured-quote .text {
+.quote .text {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
