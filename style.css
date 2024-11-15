@@ -1,3 +1,4 @@
+/* Global settings  */
 body {
   font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
@@ -13,11 +14,26 @@ ul.nav {
   padding: 0;
 }
 
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container settings */
 .header,
 .footer,
 .hero {
   background: #1f2937;
   color: #f9faf8;
+}
+
+.hero, 
+.info,
+.quote,
+.cta,
+.footer {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -26,6 +42,10 @@ ul.nav {
   margin: 0 auto;
 }
 
+
+/* Specific section styling */
+
+/* header */
 .header {
   padding: 24px 0;
 }
@@ -54,13 +74,21 @@ ul.nav {
   gap: 24px;
 }
 
-.hero, 
-.info,
-.quote,
-.cta,
-.footer {
+/* hero */
+
+.hero .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.hero .heading h1 {
+  font-size: 48px;
+}
+
+.hero .content {
+  display: flex;
+
 }
 
 button {
