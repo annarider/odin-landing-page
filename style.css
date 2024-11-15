@@ -12,6 +12,14 @@ body {
   color: #f9faf8;
 }
 
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  padding: 12px;
+}
+
 .featured-quote {
   background: #e5e7eb;
 }
