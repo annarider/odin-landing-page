@@ -49,7 +49,11 @@ ul.nav {
 .hero, 
 .info,
 .quote,
-.fe
+.cta,
+.footer {
+  display: flex;
+  justify-content: center;
+}
 
 button {
   font-family: Roboto, sans-serif;
