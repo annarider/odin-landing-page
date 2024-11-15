@@ -20,6 +20,10 @@ ul.nav {
   color: #f9faf8;
 }
 
+.container {
+  width: 1440px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +40,12 @@ ul.nav {
   font-size: 18px;
 }
 
-.left
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
