@@ -28,7 +28,7 @@ ul.nav {
 }
 
 .hero, 
-.info,
+/* .info, */
 .quote,
 .cta,
 .footer {
@@ -113,6 +113,8 @@ button {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding: 15px 0;
 }
 
 .cards {
