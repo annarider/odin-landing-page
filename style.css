@@ -108,6 +108,23 @@ button {
   padding: 12px 32px;
 }
 
+/* info */
+.title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  max-width: 200px;
+}
+
 .quote {
   background: #e5e7eb;
 }
