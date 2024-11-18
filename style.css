@@ -173,7 +173,8 @@ button {
 }
 
 .cta h2 {
-  margin: 0;
+  font-size: 2em;
+  margin: 5px 0;
 }
 
 .cta button {
