@@ -164,8 +164,12 @@ button {
   background-color: #3882F6;
   border-radius: 8px;
   height: 150px;
+  width: 1128px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.cta h2 {
+  margin: 0;
+}
