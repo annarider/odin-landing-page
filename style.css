@@ -157,3 +157,9 @@ button {
   font-weight: 700;
   text-align: right;
 }
+
+/* cta */
+.cta .container {
+  display: flex;
+  justify-content: space-between;
+}
