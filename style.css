@@ -175,3 +175,8 @@ button {
 .cta h2 {
   margin: 0;
 }
+
+.cta button {
+  border: 3px solid #f9faf8;
+  border-radius: 8px;
+}
