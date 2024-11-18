@@ -121,10 +121,20 @@ button {
   display: flex;
   justify-content: center;
   gap: 52px;
+  margin-bottom: 100px;
 }
 
 .item {
   max-width: 200px;
+}
+
+.item svg {
+  color: #3882F6;
+}
+
+.item .text {
+  padding: 16px 0;
+  text-align: center;
 }
 
 .quote {
