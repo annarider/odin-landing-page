@@ -155,6 +155,7 @@ button {
   font-style: normal;
   font-weight: 700;
   text-align: right;
+  padding: 10px 0;
 }
 
 /* cta */
