@@ -160,6 +160,10 @@ button {
 
 /* cta */
 .cta .container {
+  color: #f9faf8;
+  background-color: #3882F6;
+  border-radius: 8px;
+  height: 150px;
   display: flex;
   justify-content: space-between;
 }
