@@ -164,7 +164,9 @@ button {
   background-color: #3882F6;
   border-radius: 8px;
   height: 150px;
-  width: 1128px;
+  width: calc(100% + 128px); /* Account for wider blue box */
+  margin: 100px 0;
+  padding: 0 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
